@@ -21,6 +21,5 @@ def get_reponse(message):
             if message=="exit":
                 print("test termine")
                 break
-
                 reponse=get_reponse(message)
                 print("Bot:",reponse)
