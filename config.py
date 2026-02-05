@@ -14,8 +14,6 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 # GEMINI API
 AI_API_KEY = os.getenv("AI_API_KEY")
 
-# Endpoint IA
-AI_API_URL = "https://api.openai.com/v1/chat/completions"
 
 # CLES PRESENTES?
 if not TELEGRAM_TOKEN or not AI_API_KEY:
