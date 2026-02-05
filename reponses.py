@@ -7,7 +7,7 @@ def get_reponse(user_message: str) -> str:
 
     headers = {
         "Authorization": f"Bearer {AI_API_KEY}",
-        "Context-Type": "application/json"
+        "Content-Type": "application/json"
     }
 
     payload = {
